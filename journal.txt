@@ -1,0 +1,103 @@
+      ___           ___           ___           ___           ___                    ___           ___           ___                       ___           ___     
+     /\  \         /\  \         /\  \         /\  \         /\  \                  /\__\         /\  \         /\  \          ___        /\__\         /\  \    
+    /::\  \       /::\  \       /::\  \       /::\  \        \:\  \                /::|  |       /::\  \        \:\  \        /\  \      /:/  /        /::\  \   
+   /:/\:\  \     /:/\:\  \     /:/\:\  \     /:/\:\  \        \:\  \              /:|:|  |      /:/\:\  \        \:\  \       \:\  \    /:/  /        /:/\:\  \  
+  /::\~\:\  \   /::\~\:\  \   /::\~\:\  \   /:/  \:\  \       /::\  \            /:/|:|  |__   /::\~\:\  \       /::\  \      /::\__\  /:/__/  ___   /::\~\:\  \ 
+ /:/\:\ \:\__\ /:/\:\ \:\__\ /:/\:\ \:\__\ /:/__/ \:\__\     /:/\:\__\          /:/ |:| /\__\ /:/\:\ \:\__\     /:/\:\__\  __/:/\/__/  |:|  | /\__\ /:/\:\ \:\__\
+ \/_|::\/:/  / \:\~\:\ \/__/ \/__\:\/:/  / \:\  \  \/__/    /:/  \/__/          \/__|:|/:/  / \/__\:\/:/  /    /:/  \/__/ /\/:/  /     |:|  |/:/  / \:\~\:\ \/__/
+    |:|::/  /   \:\ \:\__\        \::/  /   \:\  \         /:/  /                   |:/:/  /       \::/  /    /:/  /      \::/__/      |:|__/:/  /   \:\ \:\__\  
+    |:|\/__/     \:\ \/__/        /:/  /     \:\  \        \/__/                    |::/  /        /:/  /     \/__/        \:\__\       \::::/__/     \:\ \/__/  
+    |:|  |        \:\__\         /:/  /       \:\__\                                /:/  /        /:/  /                    \/__/        ~~~~          \:\__\    
+     \|__|         \/__/         \/__/         \/__/                                \/__/         \/__/                                                 \/__/    
+
+    
+########################################################################################################################################################################
+
+Started : Jan 28th 2022
+Tutor : Mosh Hamedani 
+Material : React Native 
+Topics Covered: App Building, styling and Deploying 
+
+########################################################################################################################################################################
+
++--------------------+
+| Log 1 :  29th 2022 | 
++--------------------+
+
+Today I learnt about, Views, SafeViews, Dimensions, useDimensions- React Native Hooks and I also learned about style function 
+to create styles. I also learned about creating inline styles. I found the dimensions of the device with changing orientation
+I also updated the App.JSON file with default orientation option where on changing the log printed all the device orientation 
+
+Along with this, I also utilized the Button component, where I created tappable button, clickable button, button with alert, 
+button with prompt. 
+
+I also learnt about adding background color, however unable to add gradients to the device background. Perhaps a different way is there
+Learning slowly 1 by 1 
+
+
+// backgroundColor: #21D4FD;
+// backgroundImage: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+{
+  /* <Text numberOfLines={1} onPress={() => console.log("Text Clicked")}>
+        The only possible way for the victims of phishing to find a remedy is to
+        report at the police station where the crime has been committed. Due to
+        the lack of technology, the Indian police department is not
+        well-equipped to solve these identity theft-related crimes.
+      </Text>
+      <TouchableHighlight onPress={() => console.log("Image Tapped")}>
+        <Image
+          // blurRadius={10}
+          fadeDuration={5000}
+          source={{
+            width: 200,
+            height: 200,
+            uri: "https://picsum.photos/200",
+          }}
+        />
+      </TouchableHighlight>
+      <Button
+        title="click me"
+        onPress={() => console.log("Button Pressed")}
+      ></Button>
+      <Button
+        color="black"
+        title="click me"
+        onPress={() => alert("Button Pressed")}
+      ></Button>
+      <Button
+        color="green"
+        title="click me"
+        onPress={() =>
+          Alert.alert("This is a prompt Button", "Eat Pizza?", [
+            { text: "Yes", onPress: () => console.log("Yes") },
+            { text: "No", onPress: () => console.log("No") },
+          ])
+        }
+      ></Button>
+      <Button
+        color="purple"
+        title="click me"
+        onPress={() =>
+          Alert.prompt("This is a prompt Button", "Eat Pizza?", (text) =>
+            console.log(text)
+          )
+        }
+      ></Button>
+
+      <StatusBar style="auto" /> */
+}
+
+
+At 12PM : I faced a package error, where i was unable to add package to my code. It threw an error which I couldnt resolve it. 
+I tried it multiple times but it did not resolve.
+
++--------------------+
+| Log 2 :  30th 2022 | 
++--------------------+
+
+Today, I deleted my old repo, and I have re-created the app and the package got installed successfully. Thank god. 
+Now I have learnt the useDimension react native hook and how I could dynamically change the orientation of the screen 
+I have also learnt about useOrientation hook, which I object de-structured it to get the orientation. 
+
+Now I would be learning flex box and layout for this app. 
+
