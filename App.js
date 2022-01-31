@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { View, SafeAreaView } from "react-native";
+import ViewImageScreen from "./app/screens/ViewImageScreen";
 import WelcomeScreen from "./app/screens/welcome";
 
 export default function App() {
@@ -14,3 +15,9 @@ export default function App() {
 //     justifyContent: "center",
 //   },
 // });
+{
+  /* <ViewImageScreen></ViewImageScreen> */
+}
+{
+  /* <WelcomeScreen></WelcomeScreen> */
+}

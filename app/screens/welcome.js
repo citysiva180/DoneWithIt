@@ -8,11 +8,11 @@ function WelcomeScreem(props) {
     >
       <View style={styles.logoContainer}>
         <Image
-          style={styles.loginButton}
-          source={require("../assets/icon.png")}
+          style={styles.logo}
+          source={require("../assets/logo-red.png")}
         ></Image>
+        <Text>Sell what you don't Need</Text>
       </View>
-      <Text>Sell what you don't Need</Text>
       <View style={styles.loginButton}></View>
       <View style={styles.registerButton}></View>
     </ImageBackground>
@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
   background: {
     flex: 1,
     justifyContent: "flex-end",
+    alignItems: "center",
   },
   loginButton: {
     width: "100%",
